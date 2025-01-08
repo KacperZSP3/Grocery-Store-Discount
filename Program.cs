@@ -16,7 +16,7 @@ class Program
 
         if (total > 100)
         {
-            total -= total * 0.1;
+            total += total * 0.1;
         }
 
         Console.WriteLine("Total after discount: $" + total);
